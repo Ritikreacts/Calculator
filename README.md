@@ -1,5 +1,7 @@
-# Calculator
+# Calculator With Effective UI
 
 # Mini Project
-
-#JavaScript 
+TECH_STACK
+#JavaScript
+#CSS
+#HTML
