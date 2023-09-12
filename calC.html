@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="icon" href="/assets/calculator.jpg" type="image/icon type">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="screen">
+                <input type="text" id="display" readonly placeholder="CALCULATOR">
+            </div>
+            <div class="keys">
+                <table>
+                    <tr>
+                        <td><button class="button1" onclick="addtoDisplay('7')">7</button></td>
+                        <td><button class="button1" onclick="addtoDisplay('8')">8</button></td>
+                        <td><button class="button1" onclick="addtoDisplay('9')">9</button></td>
+                        <td><button class="Cbutton" onclick="clearDisplay()">C</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="button1" onclick="addtoDisplay('4')">4</button></td>
+                        <td><button class="button1" onclick="addtoDisplay('5')">5</button></td>
+                        <td><button class="button1" onclick="addtoDisplay('6')">6</button></td>
+                        <td><button class="button1 diff" onclick="calculateResult()">=</button></td>
+                    </tr><tr>
+                        <td><button class="button1" onclick="addtoDisplay('1')">1</button></td>
+                        <td><button class="button1" onclick="addtoDisplay('2')">2</button></td>
+                        <td><button class="button1" onclick="addtoDisplay('3')">3</button></td>
+                        <td><button class="button1" onclick="addtoDisplay('+')">+</button></td>
+                    </tr><tr>
+                        <td><button class="button1" onclick="addtoDisplay('0')">0</button></td>
+                        <td><button class="button1" onclick="addtoDisplay('.')">.</button></td>
+                        <td><button class="button1" onclick="addtoDisplay('*')">*</button></td>
+                        <td><button class="button1" onclick="addtoDisplay('-')">-</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="./calC.js"></script>
+</body>
+</html>
